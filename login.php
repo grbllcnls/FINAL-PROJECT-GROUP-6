@@ -11,9 +11,8 @@
 </head>
 
 <body>
-<img src="images/logo.png" alt="logo">
 
-     <form action="login1.php" method="post">
+     <form action="login.php" method="post">
 
         <h2>LOGIN</h2>
 
@@ -34,16 +33,13 @@
         <button type="submit">Login</button>
 
      </form>
-     
-     <?php 
-
+<?php 
 
 session_start(); 
 
 include "dbConnection.php";
 
 if (isset($_POST['uname']) && isset($_POST['password'])) {
-    
 
     function validate($data){
 
@@ -99,7 +95,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
             }else{
 
-                header("Location: login1.php?error=Incorect User name or password");
+                header("Location: home.php?error=Incorect User name or password");
 
                 exit();
 
@@ -107,7 +103,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
         }else{
 
-            header("Location: login1.php?error=Incorect User name or password");
+            header("Location: home.php?error=Incorect User name or password");
 
             exit();
 
@@ -117,13 +113,12 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
 }else{
 
-    header("Location: login1.php");
+    header("Location: home.php");
 
     exit();
 
 }
 ?>
-
 </body>
 
 </html>
