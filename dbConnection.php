@@ -1,17 +1,20 @@
 <?php
 
-$sname= "localhost";
+$sname= 'localhost';
 
-$unmae= "root";
+$uname= 'root';
 
-$password = "";
+$password = '';
 
-$db_name = "csids";
+$db_name = 'csids';
 
-$conn = mysqli_connect($sname, $password, $db_name);
 
-if (!$conn) {
 
-    echo "Connection failed!";
+$conn = mysqli_connect($sname, $uname, $password, $db_name, 3307);
 
-}
+if ($conn) {
+    echo "Connected!";
+  } else {
+    echo "Connection Failed";
+  }
+  ?>
