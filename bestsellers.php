@@ -6,9 +6,10 @@
     <meta name ="viewport" content="width=device-width, initial-scale = 1.0">
     <title>title</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bestsellersCSS.css">
 </head>
 <?php include 'header.php' ?>
-<?php include 'navbar.php' ?>
+<?php include 'navbar1.php' ?>
 <style>
     body, html {
   height: 100%;
@@ -54,7 +55,33 @@
 <div class="bg-image img3"></div>
 <div class="bg-image img4"></div>
 
-<div class="bg-text">THE BEST PCS IN THE METRO</div>
+<div class="featured-product-wrapper">
+<div class="featured-product" id="test">
+  <div class="container">
+    <div class="featured-product__inner">
+        <div class="featured-product__img">
+          <img src="images/bestsellerpc.webp" alt="bestsellerpc">
+        </div>
+      <div class="featured-product__caption product product__details">
+        <div class="product-details">
+          <div class="product-tag">BEST SELLER</div>
+          <h2 class="featured-product__title section-heading">Jeezus Elite PC</h2>
+          <div class="product-description">
+            Take your gaming experience to the stars and beyond. Play modern AAA titles<br> at 4K with a smooth, exciting experience. This PC is built to exceed expectations.
+          </div>
+          <div class="featured-product__tech-specs">
+              <div class="cpu">Intel Core i5-13600K</div>
+              <div class="graphics_card">GeForce RTX™ 3080 10GB</div>
+              <div class="ram">32GB DDR5 5200 CL40 (2x16GB)</div>
+          </div>
+          <div class="product-details__price">
+              <span class="price sale-price">₱85,499 PHP</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
 		

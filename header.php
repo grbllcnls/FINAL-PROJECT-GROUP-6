@@ -14,8 +14,8 @@
 <body>
 <header>
 	<div class = "wholeheader">
-		<img src = "img/icon.png" alt= "icon" class="icon">
-		<img src = "img/logo.png" alt= "logo">
+		<img src = "images/icon.png" alt= "icon" class="icon">
+		<img src = "images/logo.png" alt= "logo">
 
 		<div class="search-container">
 		<form action="/action_page.php">
@@ -26,17 +26,17 @@
 		<div class = "morebuttons">
 			<div class = "mobuttons">
 			<form action="notification.php">
-			<img src = "img/notification.png" alt= "notif" class="notif">
+			<img src = "images/notification.png" alt= "notif" class="notif">
 			</form>
 			</div>
 			<div class = "mobuttons">
 			<form action="profile.php">
-			<img src = "img/profile.png" alt= "profile" class="profile">
+			<img src = "images/profile.png" alt= "profile" class="profile">
 			</form>
 			</div>
 			<div class = "mobuttons">
 			<form action="cart.php">
-			<img src = "img/cart.png" alt= "cart" class="cart"> 
+			<img src = "images/cart.png" alt= "cart" class="cart"> 
 			</form>
 			</div>
 		</div>

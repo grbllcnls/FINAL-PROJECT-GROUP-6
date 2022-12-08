@@ -13,8 +13,8 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="bestsellers.php">BEST SELLERS</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li class="active"><a href="bestsellers.php">BEST SELLERS</a></li>
       <li><a href="buildyourownpc.php">BUILD YOUR OWN PC</a></li>
       <li><a href="bestdeals.php">BEST DEALS</a></li>
       <li><a href="budgetfriendlybuilds.php">BUDGET FRIENDLY BUILDS</a></li>
