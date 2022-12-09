@@ -1,5 +1,5 @@
 body {
-    background: #3e4144;
+    background: #FFFFFF;
 }
 .form {
     margin: 50px auto;
@@ -28,7 +28,7 @@ h1.login-title {
 }
 .login-button {
     color: #fff;
-    background: #55a1ff;
+    background: #EE3F35;
     border: 0;
     outline: 0;
     width: 100%;
@@ -50,6 +50,7 @@ h3 {
     font-weight: normal;
     text-align: center;
 }
+<<<<<<< Updated upstream
 
 header img 
 {
@@ -141,3 +142,26 @@ header img
     cursor: pointer;
   }
 
+=======
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+>>>>>>> Stashed changes
