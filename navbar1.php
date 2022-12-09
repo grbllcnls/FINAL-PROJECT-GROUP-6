@@ -14,7 +14,7 @@
   <div class="container-fluid">
     <ul class="nav navbar-nav">
       <li><a href="index.php">Home</a></li>
-      <li class="active"><a href="bestsellers.php">BEST SELLERS</a></li>
+      <li class="active"><a href="bestsellers.php">BEST SELLER</a></li>
       <li><a href="bestdeals.php">BEST DEALS</a></li>
       <li><a href="budgetfriendlybuilds.php">BUDGET FRIENDLY BUILDS</a></li>
       <li><a href="rtx.php">RTX 4090 GAMING PCS</a></li>

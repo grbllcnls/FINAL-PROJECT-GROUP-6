@@ -51,9 +51,6 @@
 </style>
 <body>
 <div class="bg-image img1"></div>
-<div class="bg-image img2"></div>
-<div class="bg-image img3"></div>
-<div class="bg-image img4"></div>
 
 <div class="featured-product-wrapper">
 <div class="featured-product" id="test">
