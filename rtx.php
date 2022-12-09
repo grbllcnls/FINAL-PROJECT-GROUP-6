@@ -30,7 +30,7 @@
     <?php 
         $i = 0;
         include_once 'db.php';
-        $sql = "SELECT * FROM products ORDER BY keyss";
+        $sql = "SELECT * FROM productsRTXa ORDER BY keyss";
         $result = $con->query($sql);
 
         //$con->close();
@@ -60,7 +60,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <?php include 'header.php' ?>
-    <?php include 'navbar2.php' ?>
+    <?php include 'navbar4.php' ?>
     <body>
         <?php 
             //echo $dyn_table;
