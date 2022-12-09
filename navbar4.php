@@ -18,7 +18,7 @@
       <li ><a href="bestdeals.php">BEST DEALS</a></li>
       <li ><a href="budgetfriendlybuilds.php">BUDGET FRIENDLY BUILDS</a></li>
       <li class="active"><a href="rtx.php">RTX 4090 GAMING PCS</a></li>
-      <li><a href="latestbuilds.php">LATEST BUILDS</a></li>
+      <li><a href="interiordesign.php">INTERIOR DESIGN SERVICES</a></li>
     </ul>
   </div>
 </nav>
