@@ -50,7 +50,6 @@ h3 {
     font-weight: normal;
     text-align: center;
 }
-<<<<<<< Updated upstream
 
 header img 
 {
@@ -126,7 +125,7 @@ header img
   }
   .wholeheader .morebuttons {
     display: inline-block;
-    margin-left: 450px;
+    margin-left: 100px;
   }
   .mobuttons{
     display: inline-block;
@@ -141,27 +140,3 @@ header img
   .navbar navbar-default{
     cursor: pointer;
   }
-
-=======
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
->>>>>>> Stashed changes
