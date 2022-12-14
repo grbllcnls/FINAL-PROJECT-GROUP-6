@@ -47,7 +47,7 @@
                             .'<h2>'.$name.'</h2>'
                             .'<b> Product Description: </b> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br> sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua.'
                             .'<br><p>'.$price.'</p>'
-                            .'<a href="addToCart.php"><h4>Add to cart</h4></a></li>';
+                            .'<a href="addToCart.php"><h4>Inquire now!</h4></a></li>';
 
         }
         $dyb_ul .= '</ul>';
