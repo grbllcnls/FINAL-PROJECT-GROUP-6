@@ -1,6 +1,7 @@
 <?php 
-
+    session_start();
     require ('connection.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +19,7 @@
     top: 20px;
 }
 body {
-    background-image: url('images/bg.png');
+    background-image: url('images/white.png');
     background-size: cover;
  background-repeat: no-repeat;
 
@@ -34,8 +35,8 @@ body {
 
 img {
     position: absolute;
-     right: 26%;
-      top: 30%;
+     right: 36%;
+      top: 20%;
 
 }
 
@@ -54,8 +55,8 @@ img {
 .bg {
 
   position: fixed;
-  top: 50%;
-  right: 30%;
+  top: 35%;
+  right: 26%;
   transform: translate(-50%, -50%);
   z-index: 2;
 
@@ -67,12 +68,9 @@ img {
       </style>
 </head>
 <body>
-<div style="background-image: url(images/white.png); height: 500px; width: 822px; border: 1px solid black; background-size: contain; position: absolute; right: 550px; top: 200px; border: 20px double rgba(0, 0, 0, .4);
-           
-            background-clip: padding-box;
-            border-radius: 20px;">
+<div >
     
-<img src="images/logo (3).png" >
+<img src="images/logo (2).png" >
 <div class ="bg" >
 
 
@@ -119,7 +117,7 @@ img {
                                 <input type="password" name="password" class="form-control" placeholder="Password">
                             </div>
                             <div class="text-end">
-                                <a href="forgotPassword.php" class='btn m-1 text-primary' style="background:transparent;">Forgot Password ?</a>
+                                <a href="forgotPassword.php" class='btn m-1 text-primary' style="background:transparent;">Forgot Password?</a>
                             </div>
                             <hr class="mt-0">
                             <div class="text-center">

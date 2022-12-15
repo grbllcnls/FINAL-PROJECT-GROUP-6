@@ -6,9 +6,10 @@
 }
 
 body {
-    background-color: #e8f5ff;
+    background-color: #EE3F35;
     font-family: Arial;
     overflow: hidden;
+    
 }
 
 /* NavbarTop */
@@ -129,6 +130,8 @@ body {
     font-size: 28px;
     padding: 0 10px;
     width: 58%;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .main h2 {
@@ -145,6 +148,7 @@ body {
     height: auto;
     margin-bottom: 20px;
     padding: 20px 0 20px 50px;
+    
 }
 
 .main .card table {

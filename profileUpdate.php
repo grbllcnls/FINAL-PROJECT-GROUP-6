@@ -21,10 +21,10 @@ if(isset($_SESSION['email'])){
 
 <html>
 <head>	
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>Profile Page</title>
+    <title>Edit Profile</title>
 
     <!-- Custom Css -->
     <link rel="stylesheet" href="profile.css">
@@ -32,8 +32,12 @@ if(isset($_SESSION['email'])){
     <!-- FontAwesome 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 	<title>Edit Profile</title>
+
+	
 </head>
 
+<?php include 'header.php' ?>
+<?php include 'navbar.php' ?>
 <body>
 	
 
@@ -43,7 +47,7 @@ if(isset($_SESSION['email'])){
        <center> <h2>Profile</h2></center>
         <div class="card">
             <div class="card-body">
-			<a href="index.php">Home</a>
+			<a href="profile.php"> <i style='font-size:20px; color: #EE3F35;' class='fas'>&#xf104; Back</i></a>
 	<br><br>
 	
 	<form name="form1" method="post" action="editprocess.php">
@@ -66,7 +70,7 @@ if(isset($_SESSION['email'])){
 				<td><input type="text" name="address" value="<?php echo $row['address']; ?>"></td>
 			</tr>
 		<tr>
-				<td><input type="submit" name="update" value="Update"></td>
+				<td><input class="btn btn-danger" type="submit" name="update" value="Update"></td>
 			</tr>
 		</table>
 	</form>
