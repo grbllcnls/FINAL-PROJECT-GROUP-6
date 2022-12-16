@@ -17,18 +17,18 @@
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;            
-            $mail->Username   = 'your email';
-            $mail->Password   = 'your password';                    
+            $mail->Username   = 'gabriellecanlas6@gmail.com';
+            $mail->Password   = 'Abbie@D@Canlas2343';                    
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   
             $mail->Port       = 465;                           
 
-            $mail->setFrom('your email');
+            $mail->setFrom('gabriellecanlas6@gmail.com');
             $mail->addAddress($email);
 
             $mail->isHTML(true);
             $mail->Subject = 'Password Reset link form CSIDS';
-            $mail->Body    = "we got a request form you to reset Password! <br>Click the link bellow: <br>
-            <a href='http://localhost:8000/updatePassword.php?email=$email&reset_token=$reset_token'>reset password</a>";
+            $mail->Body    = "We got a request form you to reset Password! <br>Click the link bellow: <br>
+            <a href='//localhost/FINAL-PROJECT---GROUP-6/updatePassword.php?email=$email&reset_token=$reset_token'>reset password</a>";
 
             $mail->send();
                 return true;
@@ -134,7 +134,7 @@
                 if (($conn->query($sql)===TRUE) && sendmail($email,$reset_token )===TRUE) {
                         echo "
                             <script>
-                                alert('Password reset link send to mail.');
+                                alert('Password reset link sent to mail.');
                                 window.location.href='index.php'    
                             </script>"; 
                     }else{
