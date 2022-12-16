@@ -18,7 +18,7 @@
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;            
             $mail->Username   = 'gabriellecanlas6@gmail.com';
-            $mail->Password   = 'Abbie@D@Canlas2343';                    
+            $mail->Password   = 'brvbpykkvnohfjma';                    
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;   
             $mail->Port       = 465;                           
 
@@ -28,7 +28,7 @@
             $mail->isHTML(true);
             $mail->Subject = 'Password Reset link form CSIDS';
             $mail->Body    = "We got a request form you to reset Password! <br>Click the link bellow: <br>
-            <a href='//localhost/FINAL-PROJECT---GROUP-6/updatePassword.php?email=$email&reset_token=$reset_token'>reset password</a>";
+            <a href='localhost/FINAL-PROJECT---GROUP-6/updatePassword.php?email=$email&reset_token=$reset_token'>reset password</a>";
 
             $mail->send();
                 return true;
